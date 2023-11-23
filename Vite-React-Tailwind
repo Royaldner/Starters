@@ -1,0 +1,11 @@
+1.  create project folder
+2.  go to terminal
+3.  type in:
+    `npm create vite@latest`
+4. name your project
+5. choose react
+6. coose javascript or typescript
+7. cd to the folder
+8. type in:
+    `npm i`
+    `npm run dev`
