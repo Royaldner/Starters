@@ -13,3 +13,5 @@
 10. start creating components
 11. type in:
     `rafce`
+12. icons (optional) type in:
+    `npm i react-icons --save`
