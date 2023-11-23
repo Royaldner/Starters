@@ -15,3 +15,25 @@
     `rafce`
 12. icons (optional) type in:
     `npm i react-icons --save`
+
+
+TAILWIND
+1. at terminal
+    `npm install -D tailwindcss postcss autoprefixer`    
+    `npx tailwindcss init -p`
+2. at taiwlind.config.js
+    /** @type {import('tailwindcss').Config} */
+export default {
+  `content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+      ],
+      theme: {
+    extend: {},
+      },
+      plugins: [],
+    }`
+3. at index.css
+    `@tailwind base;
+    @tailwind components;
+    @tailwind utilities;`
